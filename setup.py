@@ -46,7 +46,6 @@ setup(
     # https://pypi.python.org/pypi?:action=list_classifiers
     classifiers=[
         'License :: OSI Approved :: MIT License',
-        'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries',
         'Programming Language :: Python :: 2.7',
@@ -58,8 +57,5 @@ setup(
     packages=find_packages(),
     install_requires=load_requirements('requirements.txt'),
     entry_points={
-        'console_scripts': [
-            'cpl_cli = cpl.main:entry_point'
-        ],
     },
 )
